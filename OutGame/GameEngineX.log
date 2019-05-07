@@ -1,0 +1,5 @@
+﻿  Game.cpp
+EngineX.lib(Engine.obj) : warning LNK4099: PDB 'EngineX.pdb' was not found with 'EngineX.lib(Engine.obj)' or at 'C:\Users\pg14david\Desktop\PG14David_Programming3_a4\Build\EngineX.pdb'; linking object as if no debug info
+EngineX.lib(RenderPacket.obj) : warning LNK4099: PDB 'EngineX.pdb' was not found with 'EngineX.lib(RenderPacket.obj)' or at 'C:\Users\pg14david\Desktop\PG14David_Programming3_a4\Build\EngineX.pdb'; linking object as if no debug info
+EngineX.lib(System.obj) : warning LNK4099: PDB 'EngineX.pdb' was not found with 'EngineX.lib(System.obj)' or at 'C:\Users\pg14david\Desktop\PG14David_Programming3_a4\Build\EngineX.pdb'; linking object as if no debug info
+  GameEngineX.vcxproj -> C:\Users\pg14david\Desktop\PG14David_Programming3_a4\Build\GameEngineX.exe

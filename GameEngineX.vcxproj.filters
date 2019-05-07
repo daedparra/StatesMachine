@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{ccdbdf11-c381-4f92-bf67-ba05fce45ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Public">
+      <UniqueIdentifier>{75c2830e-ea9b-4f39-a9f0-30582628d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{3f73a39c-59f6-4cb6-a0b8-d251275c643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Public">
+      <UniqueIdentifier>{6dcd4022-feb1-45d9-a4a5-3b9cee46ecd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private">
+      <UniqueIdentifier>{9e4c503e-26a9-484b-be5c-d94f35576fc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Public\EngineInterface.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\EngineTypes.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\GameInterface.h">
+      <Filter>Source Files\Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\SDL.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="FSMState.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="FSMLight.h" />
+    <ClInclude Include="FSMRed.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMYellow.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMGreen.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Game.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMMachine.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Drink.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMCoins.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMSelectorDrink.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Clock.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMTimer.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMStart.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMPause.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMReset.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Private\Main.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Game.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMRed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMYellow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMGreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMMachine.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Drink.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMCoins.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMSelectorDrink.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Clock.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMTimer.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMStart.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMPause.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMReset.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
